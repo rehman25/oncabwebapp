@@ -22,11 +22,11 @@ const Home = () => {
         <HeroSlider />
 
         <div className="hero__form">
-          <Container>
+          {/* <Container>
             <Row className="form__row">
               <Col lg="4" md="4">
                 <div className="find__cars-left">
-                  <h2>Find your best car here</h2>
+                  <h2>Find your best CAB here</h2>
                 </div>
               </Col>
 
@@ -34,7 +34,7 @@ const Home = () => {
                 <FindCarForm />
               </Col>
             </Row>
-          </Container>
+          </Container> */}
         </div>
       </section>
       {/* =========== about section ================ */}
@@ -54,7 +54,7 @@ const Home = () => {
       </section>
       {/* =========== car offer section ============= */}
       <section>
-        <Container>
+        {/* <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
               <h6 className="section__subtitle">Come with</h6>
@@ -65,14 +65,14 @@ const Home = () => {
               <CarItem item={item} key={item.id} />
             ))}
           </Row>
-        </Container>
+        </Container> */}
       </section>
       {/* =========== become a driver section ============ */}
       <BecomeDriverSection />
 
       {/* =========== testimonial section =========== */}
       <section>
-        <Container>
+        {/* <Container>
           <Row>
             <Col lg="12" className="mb-4 text-center">
               <h6 className="section__subtitle">Our clients says</h6>
@@ -81,11 +81,11 @@ const Home = () => {
 
             <Testimonial />
           </Row>
-        </Container>
+        </Container> */}
       </section>
 
       {/* =============== blog section =========== */}
-      <section>
+      {/* <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
@@ -96,7 +96,7 @@ const Home = () => {
             <BlogList />
           </Row>
         </Container>
-      </section>
+      </section> */}
     </Helmet>
   );
 };

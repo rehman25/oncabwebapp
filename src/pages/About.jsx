@@ -32,17 +32,28 @@ const About = () => {
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                  At OnCab Global, your safety is our top priority. We are
+                  committed to offering safe, reliable, and comfortable ride
+                  solutions for all our passengers. Every trip with us is
+                  designed to provide peace of mind, from the moment you book
+                  your ride to the time you reach your destination.
                 </p>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                  Our drivers undergo rigorous background checks and extensive
+                  training to ensure a safe driving experience. Each vehicle is
+                  regularly inspected and maintained, meeting the highest safety
+                  standards. We also implement real-time GPS tracking, allowing
+                  you to share your ride status with loved ones, ensuring added
+                  security on every journey.
+                </p>
+                <p className="section__description">
+                  Whether you're commuting to work, catching a late-night
+                  flight, or traveling with family, you can trust OnCab Global
+                  to provide a smooth, secure, and safe ride every time. With
+                  24/7 availability and enhanced safety protocols, we are
+                  committed to getting you where you need to go—safely and
+                  reliably.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
@@ -52,7 +63,7 @@ const About = () => {
 
                   <div>
                     <h6 className="section__subtitle">Need Any Help?</h6>
-                    <h4>+00123456789</h4>
+                    <h4>+92 21 33517981</h4>
                   </div>
                 </div>
               </div>
@@ -65,13 +76,13 @@ const About = () => {
 
       <section>
         <Container>
-          <Row>
+          {/* <Row>
             <Col lg="12" className="mb-5 text-center">
               <h6 className="section__subtitle">Experts</h6>
               <h2 className="section__title">Our Members</h2>
             </Col>
             <OurMembers />
-          </Row>
+          </Row> */}
         </Container>
       </section>
     </Helmet>

@@ -98,6 +98,16 @@
 .header__btn a:hover {
   color: #fff;
 }
+/* ============== LOGO Style======================= */
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo {
+  height: 70px; /* Set the height of the logo */
+  width: auto;  /* Automatically adjust width to maintain aspect ratio */
+}
 
 /* ================ main navbar styles =========== */
 

@@ -8,6 +8,8 @@ import Blog from "../pages/Blog";
 import BlogDetails from "../pages/BlogDetails";
 import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
+import Privacy_Policy from "../pages/Privacy_Policy";
+import Account_Deletion from '../pages/Account_Deletion'
 
 const Routers = () => {
   return (
@@ -21,6 +23,9 @@ const Routers = () => {
       <Route path="/blogs/:slug" element={<BlogDetails />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
+      <Route path="/Privacy_Policy" element={<Privacy_Policy />} />
+      <Route path="/account_deletion" element={<Account_Deletion />} />
+      
     </Routes>
   );
 };

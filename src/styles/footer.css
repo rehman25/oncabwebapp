@@ -8,6 +8,23 @@
   color: #fff;
   font-weight: 400;
 }
+.footer__logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo-heading {
+  margin-left: 10px; /* Adds space between the logo and the heading */
+  font-size: 1.8rem; /* Adjust the size of the h1 heading */
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer__logo img {
+  width: 50px; /* Adjust logo size */
+  height: auto;
+}
+
 
 .footer__logo span {
   color: #fff;
@@ -16,8 +33,10 @@
 
 .footer__logo-content {
   color: rgba(255, 255, 255, 0.715);
-  margin-top: 15px;
-  line-height: 30px;
+  margin-top: 10px;
+  line-height: 25px;
+  font-weight: 300;
+  text-align: start;
 }
 
 .quick__link {
