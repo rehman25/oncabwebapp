@@ -153,8 +153,8 @@ const Contact = () => {
               </Form>
 
               {isSubmitting && <Loader />}
-              {error && <div className="error-message">{error}</div>}
-              {successMessage && <div className="success-message">{successMessage}</div>}
+              {error && <div className="error-message" style={{color:"red"}}>{error}</div>}
+              {successMessage && <div className="success-message" style={{color:"green"}}>{successMessage}</div>}
             </Col>
 
             <Col lg="5" md="5">
@@ -175,7 +175,7 @@ const Contact = () => {
 
                 <div className="d-flex align-items-center gap-2">
                   <h6 className="mb-0 fs-6">Email:</h6>
-                  <p className="section__description mb-0">support@OnCabGlobal.com</p>
+                  <p className="section__description mb-0">support@oncabglobal.com</p>
                 </div>
 
                 <h6 className="fw-bold mt-4">Follow Us</h6>

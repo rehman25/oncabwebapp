@@ -69,7 +69,7 @@ const Footer = () => {
                 <br /> Shahrah e Faisal, Karachi Pakistan
               </p>
               <p className="office__info">Phone:  +92 21 33517981 </p>
-              <p className="office__info">Email: support@OnCabGlobal.com</p>
+              <p className="office__info">Email: support@oncabglobal.com</p>
             </div>
           </Col>
 
